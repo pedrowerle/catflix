@@ -1,0 +1,21 @@
+.gatinhoRow {
+    margin-bottom: 30px;
+    overflow-x: hidden;
+}
+
+.listArea {
+  display: inline-block;
+  width: 550px;
+  cursor: pointer;
+}
+
+.imgGatinho {
+  flex: 0;
+  width: 100%;
+  transform: scale(0.9);
+  transition: all ease 0.11s;
+}
+
+.gatinho--item img:hover{
+  transform: scale(1);
+}
